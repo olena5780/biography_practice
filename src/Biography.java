@@ -32,6 +32,12 @@ public class Biography {
          */
 
         //YOUR CODE HERE
+        Author author = Author.newAuthor();
+        System.out.println(author);
+        System.out.println("Author's books are as listed below:");
+        author.listOfBooks.forEach(System.out::println);
+
+
 
     }
 }
